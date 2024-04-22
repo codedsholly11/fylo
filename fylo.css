@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.love{
+    display: flex;
+    padding: 35px;
+}
+.love1{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.love2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.love2 h3{
+    font-size: 28px;
+}
+.love2 p{
+    font-size: 18px;
+}
+.love3 input{
+    padding: 18px;
+    width: 350px;
+}
+.love3 button{
+    padding: 18px;
+    width: 220px;
+     color: white;
+     border:none ;
+    background-color:hsl(224, 93%, 58%) ;
+    cursor: pointer;
+}
+.love4{
+    height:70vh;
+}
+.like{
+    display: flex;
+    /* height: 100vh; */
+    gap: 20px;
+    align-items: center;
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.box4{
+    height: 70vh;
+}
+.like1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 35px;
+}
+.like2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.like2 p{
+    font-size:23px ;
+}
+.like2 h3{
+    font-size:40px ;
+}
+.btn-1{
+    border: solid hsl(170, 45%, 43%) ;
+    background: transparent;
+    padding: 10px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:hsl(170, 45%, 43%) ;
+    font-size: 23px;
+    cursor: pointer;
+    display: flex;
+    /* width: 280px; */
+    gap: 20px;
+    align-items: center;
+}
+
+.btn-1 img{
+    width: 30px;
+    height: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 7px;
+}
+.kyle{
+    height: 50px;
+    border-radius: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+
+}
+.box1 img{
+    height: 20px;
+    width: 40px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.box1 p{
+    font-size: 28px;
+}
+.box2{
+    display: flex;
+    gap: 15px;
+}
+.box3 h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.you{
+    display: flex;
+    background-color: hsl(238, 22%, 44%) ;
+    padding:35px;
+    gap: 80px;
+}
+.you1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.you1 h2{
+    font-size:40px ;
+}
+.you1 p{
+    font-size: 18px;
+}
+.you2 input{
+    padding: 20px;
+    width: 550px;
+}
+.you2 button{
+    padding: 20px;
+    width: 250px;
+    color:white ;
+    border:none ;
+    cursor: pointer;
+    background-color: hsl(224, 93%, 58%) ;
+}
+.you2{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+footer{
+    display: flex;
+    background-color: hsl(243, 87%, 12%) ;
+    color: white;
+    padding: 35px;
+    justify-content: space-between;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.code1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.code2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.code3{
+    display: flex;
+    gap: 30px;
+}
+.code4{
+ display: flex;
+    gap: 30px;
+}
+
+/* Responsiveness design for mobile screen sizes */
+
+@media screen and (max-width:950px) {
+    .nav{
+
+    }
+    .love{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        justify-content: center;
+    }
+    .love3{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .love3 button{
+    padding: 18px;
+    width: 350px;
+     color: white;
+     border:none ;
+    background-color: hsl(224, 93%, 58%) ;
+    cursor: pointer;
+}
+.love4{
+    height: 30vh;
+}
+.like{
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     gap: 20px;
+     justify-content: center;
+}
+.like2 h3{
+    font-size: 22px;
+}
+.like2 p{
+    font-size: 16.5px;
+}
+.box4{
+    height: 30vh;
+}
+.you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
+.you2 input{
+    width: 300px;
+}
+.you2 button{
+    width: 300px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+}
