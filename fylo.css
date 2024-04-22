@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body, html{
+    overflow-x: hidden;
+}
+
 main{
 display: flex;
 flex-direction: column;
@@ -13,6 +18,7 @@ nav{
     display: flex;
     align-items: center;
     padding: 15px;
+    width: 100%;
     justify-content: space-between;
 }
 ul{
@@ -135,7 +141,7 @@ ul{
     gap: 14px;
 }
 .box1 p{
-    font-size: 28px;
+    font-size: 22px;
 }
 .box2{
     display: flex;
@@ -214,7 +220,17 @@ footer{
 
 @media screen and (max-width:950px) {
     .nav{
+        justify-content: flex-end;
+        width: 100%;
+    }
 
+    ul{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .logo{
+        height: 30px;
     }
     .love{
         display: flex;
